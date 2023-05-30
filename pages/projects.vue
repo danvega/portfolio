@@ -28,8 +28,6 @@ const query = gql`
 // = ref({ limit: 5})
 const variables = { limit: 5 }
 const { data } = await useAsyncQuery(query, variables);
-
-console.log(data);
 </script>
 
 <template>
