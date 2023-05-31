@@ -32,7 +32,7 @@ const { data: posts } = await useAsyncData('posts', () =>
       </p>
     </div>
 
-    <img src="~/assets/images/danvega-avatar.png" class="w-1/2 md:w-1/4 p-8" />
+    <img src="~/assets/images/danvega-avatar.png" class="w-1/2 md:max-w-sm p-8 mx-auto" />
   </section>
 
   <section>
