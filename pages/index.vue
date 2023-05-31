@@ -35,8 +35,10 @@ const { data: posts } = await useAsyncData('posts', () =>
     <img src="~/assets/images/danvega-avatar.png" class="w-1/2 md:w-1/4 p-8" />
   </section>
 
-  <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>
-  <section class="grid md:grid-cols-3 mt-8 gap-10">
-    <Post :posts="posts" />
+  <section>
+    <h2 class="text-3xl font-bold mt-8">Latest Blog Posts</h2>
+    <div class="grid md:grid-cols-3 mt-8 gap-10">
+      <Post :posts="posts" />
+    </div>
   </section>
 </template>
