@@ -1,15 +1,18 @@
 <template>
-  <h1 class="text-3xl font-bold my-8">Uses</h1>
-  <p class="text-lg">
-    I am often asked about the gear I use as a software developer and content creator. The hardware and software I use is
-    changing all the time so this page will serve as a place for an updated list. If you have a question about anything I
-    use or a suggestion for something I am missing please reach out to me on
-    <a href="https://www.twitter.com/therealdanvega" aria-label="Dan Vega on Twitter">Twitter</a>. The
-    inspiration for this page came from
-    <a href="https://wesbos.com/uses" aria-label="Wes Bos Uses">Wes Bos</a>'s uses page and has been
-    submitted to
-    <a href="https://uses.tech/" aria-label="uses.tech">uses.tech</a>.
-  </p>
+  <div class="">
+
+    <h1 class="text-3xl font-bold my-8 border p-2">Uses</h1>
+    <p class="text-lg bg-gray-100 p-6 rounded-md">
+      I am often asked about the gear I use as a software developer and content creator. The hardware and software I use is
+      changing all the time so this page will serve as a place for an updated list. If you have a question about anything I
+      use or a suggestion for something I am missing please reach out to me on
+      <a href="https://www.twitter.com/therealdanvega" aria-label="Dan Vega on Twitter">Twitter</a>. The
+      inspiration for this page came from
+      <a href="https://wesbos.com/uses" aria-label="Wes Bos Uses">Wes Bos</a>'s uses page and has been
+      submitted to
+      <a href="https://uses.tech/" aria-label="uses.tech">uses.tech</a>.
+    </p>
+  </div>
 
   <h2 class="text-2xl font-bold mt-8 mb-2">This Website</h2>
   <ul class="list-disc">
